@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    margin-top: 24px;
+     background-color: rgb(238, 242, 242);
+}
+.swaaz{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    fonts-size: ;
+    font-family: bold;
+}
+.daniel{
+    background-color: white;
+    margin: 20px auto;
+    border: 3px;
+    border-radius: 3px;
+    width: 220px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 1);
+    padding: 10px;
+}
+input{
+    display: block;
+    width: 90%;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0, 1);
+    margin-top: 10px;
+}
+.khidz{
+    color: white;
+    outline: none;
+    display: block;
+    width: 100%;
+    background-color: #1877f2;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forgot{
+    text-align: center;
+    margin: 10px 0px;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: normal;
+    color: #1877f2;   
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+hr{
+    margin: 15px 0px;
+    opacity: 0.3;
+}
+.create{
+    
+    color: white;
+    outline: none;
+    display: block;
+    width: 100%;
+    background-color: #36d277;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

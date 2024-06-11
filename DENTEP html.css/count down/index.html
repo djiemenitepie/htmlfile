@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+  <style>
+    .timer-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+
+    .timer {
+      font-size: 4rem;
+      font-weight: bold;
+      padding: 2rem;
+      background-color: #333;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="timer-container">
+    <div class="timer" id="timer">60</div>
+  </div>
+
+  <script>
+    const timerElement = document.getElementById('timer');
+    let countdownTime = 60; // 60 seconds
+
+    function updateTimer() {
+      timerElement.textContent = countdownTime;
+    }
+
+    function countdown() {
+      countdownTime--;
+      updateTimer();
+
+      if (countdownTime === 0) {
+        clearInterval(countdownInterval);
+        alert('Time is up!');
+      }
+    }
+
+    const countdownInterval = setInterval(countdown, 1000);
+  </script>
+</body>
+</html>
+</body>
+</html>
